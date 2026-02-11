@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://registrationformbackend-env.eba-yvhrwe9z.ap-south-1.elasticbeanstalk.com/users";
+const BASE_URL = "https://ki9hv4fa0b.execute-api.ap-south-1.amazonaws.com/";
 
 export const createUser = (userData) => {
   return axios.post(BASE_URL, userData);
